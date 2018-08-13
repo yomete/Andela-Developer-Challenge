@@ -1,6 +1,37 @@
 body{
     background-color: #0ca3d2;
     font-family: "Lucida Grande","sans-serif";
+    margin: 0;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: right;
+}
+#header{
+    float: left;
+    text-align: center;
+    color: white;
+    padding: 14px 16px;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+li a:hover {
+    background-color: #111;
 }
 
 .container{

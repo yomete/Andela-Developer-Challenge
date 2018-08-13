@@ -1,0 +1,186 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:300,400,600);
+body {
+    margin: auto;
+    font-family: Arial;
+    font-weight: normal;
+    color: #222222;
+  }
+.container{
+ width: 90%;
+ margin: 0 auto;
+}
+#header{
+    float: left;
+    text-align: center;
+    color: white;
+    padding: 14px 16px;
+}
+nav ul {
+    position: fixed;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    width: 100%;
+    top: 0px;
+}
+
+
+#new{
+    float: left;
+}
+#logout{
+    float: right;
+}
+
+nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 15px 16px;
+    text-decoration: none;
+    float: right;
+    font-size: 13px;
+}
+
+nav li a:hover {
+    background-color: #111;
+}
+
+
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: Raleway;
+    font-weight: 300;
+  }
+  
+  a {
+    color: #07C;
+    text-decoration: none;
+  }
+  
+  .container a:hover {
+    color: #005999;
+  }
+  
+  div {
+    display: block;
+  }
+
+  .container {
+    margin-top: 100px;
+  }
+  
+  .row {
+    width: 100%;
+  }
+  
+  .row .five-percent {
+    width: 5%;
+    max-width: 5%;
+    min-width: 5%;
+    display: inline-block;
+  }
+  
+  .row .ten-percent {
+    width: 10%;
+    max-width: 10%;
+    min-width: 10%;
+    display: inline-block;
+  }
+  
+  .row .seventy-percent {
+    width: 82%;
+    max-width: 82%;
+    min-width: 82%;
+    display: inline-block;
+  }
+  
+  .row .fifty-percent {
+    width: 48%;
+    max-width: 48%;
+    min-width: 48%;
+    display: inline-block;
+  }
+  
+  .text-left {
+    text-align: left;
+  }
+  
+  .text-right {
+    text-align: right;
+  }
+  
+  .text-center {
+    text-align: center;
+  }
+  
+  .btn {
+    text-decoration: none;
+  }
+  
+  .btn.btn-blue {
+    background-color: #2780E3;
+    color: whitesmoke;
+    padding: 7px 10px;
+    border-radius: 5px;
+  }
+  
+  .btn.btn-blue:hover {
+    background-color: #1967be;
+  }
+  
+  small {
+    color: #999999;
+  }
+  
+  .badges {
+    list-style: none;
+    -webkit-padding-start: 0px;
+  }
+  
+  .badges li.badge {
+    margin-left: 0;
+    display: inline-block;
+    margin-right: 5px;
+    color: #39739d;
+    background-color: #E1ECF4;
+    border-color: #E1ECF4;
+    padding: 3px 7px;
+    border-radius: 3px;
+    font-size: 12px;
+    font-weight: normal;
+  }
+  
+  @media (max-width: 576px) {
+    /*body {
+      background-color: red !important;
+    }*/
+  
+    .five-percent {
+      width: 15% !important;
+      max-width: 15% !important;
+      min-width: 15% !important;
+      display: inline-block;
+      font-size: 15px;
+    }
+  
+    .five-percent br {
+      display: none;
+    }
+  
+    .five-percent small {
+      display: inline;
+    }
+  
+    .seventy-percent {
+      padding-top: 10px;
+    }
+  }
+    
